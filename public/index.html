@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class="font-body">
+    <header class="relative">
+        <nav class="flex justify-between items-center">
+            <div class="burger block md:hidden">
+                <svg class="text-[rgb(235,204,103)] w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+
+            <h2>SammixFries</h2>
+
+            <ul class="navlinks text-sm gap-3 hidden md:flex"> 
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Contact Us</li>
+            </ul>
+
+             <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+             
+        </nav>
+        <div class="hero-cont flex py-6 flex-col md:flex-row justify-between items-center mt-8 gap-4 relative overflow-visible">
+            <div class="hero-content mb-4 md:mb-0 overflow-visible">
+                <h1 class="text-5xl text-center md:text-left font-semibold overflow-hidden pb-4">Satisfy Your Cravings</h1>
+                <p class="text-center md:text-left">We provide the tastiest and most affordable sharwamas made of quality, beef and chicken.</p>
+                <div class="relative overflow-visible">
+                    <div class="hero-btns mt-4 w-fit mx-auto md:mx-2">
+                        <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-md cursor-pointer font-semibold">Order Now</button>
+                        <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-md cursor-pointer font-semibold">See Menu</button>
+                    </div>
+                    <img src="./images/Finger.png" alt="" class="pointing-finger">
+                </div>
+                
+                
+                <div class="hero-cards flex gap-2 md:gap-4 mt-10 md:mt-16">
+                    <div class="card text-[0.7rem]">
+                        <img src="images/chef-icon.png" alt="">
+                        <p class="font-semibold">From 8:00 am - 9:00 pm</p>
+                        <p>Working Hours</p>
+                    </div>
+
+                    <div class="card text-[0.7rem]">
+                        <img src="images/delivery-icon.png" alt="">
+                        <p class="font-semibold">Free Delivery</p>
+                        <p>Anywhere in Nigeria</p>
+                    </div>
+
+                    <div class="card text-[0.7rem]">
+                        <img src="images/call-icon.png" alt="">
+                        <p class="font-semibold">090000000000</p>
+                        <p>24/7 Customer Support</p>
+                    </div>
+                </div>    
+            </div>
+            
+            <div class="hero-img w-fit h-fit bg-[rgba(249,215,101,0.7)] rounded-full p-3">
+                <img src="./images/sharwama10.jpg" alt="" class="aspect-square md:w-[36rem] object-cover rounded-full">
+            </div>
+
+            
+        </div>
+
+        
+    </header>
+
+    <main>
+
+        <!-- -----------------------------------MENU SECTION--------------------------------------- -->
+        <section class="menu-section">
+            <h3 class="">OUR MENU</h3>
+            <h1 class="">Explore our Dishes</h1>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper menus">
+                    <div class="swiper-slide menu">
+                        <img src="images/sharwama1.jpg" alt="" class="w-[20rem] rounded-full aspect-square object-cover mx-auto mb-3">
+                        <h2 class="font-bold text-xl before:content-['']">Chicken Shawarma 1</h2>
+    
+                        <div class="price flex justify-between items-center">
+                            <p>N200</p>
+                            <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide menu">
+                        <img src="images/sharwama2.jpg" alt="" class="w-[20rem] rounded-full aspect-square object-cover mx-auto mb-3">
+                        <h2 class="font-bold text-xl">Chicken Shawarma 2</h2>
+    
+                        <div class="price flex justify-between items-center">
+                            <p>N200</p>
+                            <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide menu">
+                        <img src="images/burger1.jpg" alt="" class="w-[20rem] rounded-full aspect-square object-cover mx-auto mb-3">
+                        <h2 class="font-bold text-xl">Chicken Burger 1</h2>
+    
+                        <div class="price flex justify-between items-center">
+                            <p>N200</p>
+                            <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+                        </div>
+                    </div>
+ 
+                    <div class="swiper-slide menu">
+                        <img src="images/burger4.jpg" alt="" class="w-[20rem] rounded-full aspect-square object-cover mx-auto mb-3">
+                        <h2 class="font-bold text-xl">Chicken Burger 2</h2>
+    
+                        <div class="price flex justify-between items-center">
+                            <p>N200</p>
+                            <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide menu">
+                        <img src="images/sharwama12.jpg" alt="" class="w-[20rem] rounded-full aspect-square object-cover mx-auto mb-3">
+                        <h2 class="font-bold text-xl">Chicken Shawarma 3</h2>
+    
+                        <div class="price flex justify-between items-center">
+                            <p>N200</p>
+                            <button class="bg-[rgb(249,215,101)] py-2 px-5 rounded-full cursor-pointer font-semibold">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="bg-slate-600 absolute top-0 left-1"> -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>      
+                <!-- </div> -->
+                
+            </div>
+            
+        </section>
+
+        <!-- -----------------------------------------------------------------ABOUT SECTION------------------------------------------------------ -->
+        <section>
+            <div class="grid grid-flow-row md:grid-flow-col justify-between items-center gap-16">
+                <div class="img order-2 md:order-1">
+                    <img src="images/sharwama15.jpg" alt="" class="w-full h:[35rem] md:w-[35rem] md:h-[27rem] object-cover rounded-lg">
+                </div>
+
+                <div class="about-contents order-1 md:order-2">
+                    <h3>ABOUT US</h3>
+                    <h1 class="">We give you the best snack</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos odio accusamus tenetur ipsum, maxime suscipit minus ut, quis aliquid nostrum cum pariatur repudiandae cupiditate est unde vitae, quisquam dicta perferendis similique! Illum alias tempore ut repudiandae! Est, omnis! Consectetur, itaque deserunt maxime nam praesentium fugiat temporibus impedit ab voluptate aliquid nihil a dolore tempora! Adipisci provident, excepturi voluptatem animi aliquid nisi quas nemo ratione corrupti, repellendus minima dolore, fugit sed.</p>
+                </div>
+            </div>
+
+            <!-- <div class="mt-8">
+                <div>
+                    <h3>MEET OUR CHEF</h3>
+                    <h1 class="text-3xl font-bold">We Introduce you to Shawarma Husband</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, ipsum, exercitationem, et distinctio corporis fugiat incidunt numquam enim nobis consectetur aperiam. Rerum fugit tempore ea?</p>
+                </div>
+
+                <div>
+
+                </div>
+            </div> -->
+            
+        </section>
+
+        <!-- ------------------------------------------------------------TESTIMONIAL SECTION-------------------------------------------------------------- -->
+        <section class="testimonial-section">
+            <h3 class="">OUR TESTIMONIALS</h3>
+            <h1 class="text-xl md:text-3xl font-bold">Hear What Our Clients Says</h1>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mt-12">
+                    <div class="swiper-slide bg-[rgb(249,215,101)] relative rounded-md shadow-md">
+                        <div class="w-20 h-20 m-auto rounded-full border-slate-900 border-[2px] -translate-y-8">
+                            <img src="images/client1.jpg" alt="" class="w-full h-full object-cover">
+                          </div>
+                        <div class="testimonial-contents text-center pb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio id voluptatem vero inventore magni, rerum commodi porro! Placeat, consequuntur!</p>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="swiper-slide bg-[rgb(249,215,101)] relative rounded-md shadow-md">
+                        <div class="w-20 h-20 m-auto rounded-full border-slate-900 border-[2px] -translate-y-8">
+                            <img src="images/client2.jpg" alt="" class="w-full h-full object-cover">
+                          </div>
+                        <div class="testimonial-contents text-center pb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio id voluptatem vero inventore magni, rerum commodi porro! Placeat, consequuntur!</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-slide bg-[rgb(249,215,101)] relative rounded-md shadow-md">
+                        <div class="w-20 h-20 m-auto rounded-full border-slate-900 border-[2px] -translate-y-8">
+                            <img src="images/client3.jpg" alt="" class="w-full h-full object-cover">
+                          </div>
+                        <div class="testimonial-contents text-center pb-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio id voluptatem vero inventore magni, rerum commodi porro! Placeat, consequuntur!</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="bg-slate-600 absolute top-0 left-1"> -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>      
+                <!-- </div> -->
+                
+            </div>
+            
+        </section>
+
+        <!-- -----------------------------------------------------------------BLOG SECTION--------------------------------------------------------------- -->
+        <section class="bg-gray-200">
+            <h3 class="">OUR BLOG</h3>
+            <h1 class="">Learn about making snacks</h1>
+            
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper mt-12">
+                    <div class="swiper-slide border-[rgb(249,215,101)] border-2 rounded-md w-5 shadow-md">
+                        <img src="images/burger3.jpg" alt="" class="w-full h-56 rounded-t-md object-cover">
+                        <h2 class="text-center py-4">How to make homemade burger</h2>
+                    </div>
+    
+                    <div class="swiper-slide border-[rgb(249,215,101)] border-2 rounded-md w-5 shadow-md">
+                        <img src="images/bread1.jpg" alt="" class="w-full h-56 rounded-t-md object-cover">
+                        <h2 class="text-center py-4">How to make bread</h2>
+                    </div>
+
+                    <div class="swiper-slide border-[rgb(249,215,101)] border-2 rounded-md w-5 shadow-md">
+                        <img src="images/icecream.jpg" alt="" class="w-full h-56 rounded-t-md object-cover">
+                        <h2 class="text-center py-4">How to make icecream</h2>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="bg-slate-600 absolute top-0 left-1"> -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>      
+                <!-- </div> -->
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-[rgb(249,215,101)] h-fit flex flex-col md:flex-row justify-between gap-8 text-sm">
+        <div class="text-center md:w-[40%] md:text-left">
+            <h2>Saimaster Cave</h2>
+            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, eos magnam! Sed odio, earum quam tenetur delectus ipsa quibusdam? Autem laudantium error ipsum nemo nostrum.</p>
+            <br><p>Follow us on</p>
+        </div> 
+
+        <div class="flex flex-col text-center md:text-left md:flex-row md:w-[40%] justify-between gap-8">
+            <div class="footerContact">
+                <h2 class="">Get in Touch</h2>
+                <p>Phone : 090343</p>
+                <p>Address: sdsd</p>
+                <p>Mail: Saimaster-cave@gmail.com</p>
+            </div>
+            <div class="footerLinks">
+                <h2>Links</h2>
+                <p>Home</p>
+                <p>Menu</p>
+                <p>About</p>
+                <p>Testimonials</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    // observer:true,
+    // observeParents: true,
+    // parallax:true,
+    slidesPerView: 1,
+    spaceBetween: 50,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+        }
+    },
+    loop: true,
+    // centeredSlides: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</html>
+
+
